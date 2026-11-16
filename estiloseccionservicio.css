@@ -1,0 +1,76 @@
+#servicio {
+    background-color: rgba(0, 0, 0, 0.55);
+    border-radius: 20px;
+    margin: 30px;
+    padding: 50px;
+}
+
+#servicio h2 {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+#servicio > p {
+    text-align: center;
+    color: #99ff99;
+}
+
+.contenedor-servicios {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    margin: 35px 0;
+}
+
+.tarjeta-servicio {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 25px;
+    background-color: #ccffcc;
+    border: 2px solid #99ff99;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.tarjeta-servicio input {
+    margin-top: 15px;
+    width: 18px;
+    height: 18px;
+    accent-color: #16865a;
+    cursor: pointer;
+}
+
+.tarjeta-servicio label {
+    cursor: pointer;
+    width: 100%;
+}
+
+.tarjeta-servicio h3 {
+    color: #064d2b;
+    font-size: 19px;
+    margin-top: 8px;
+}
+
+.tarjeta-servicio p {
+    color: #164d32;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.tarjeta-servicio:hover {
+    transform: translateY(-6px);
+    background-color: #ffffff;
+    border-color: #16865a;
+    box-shadow: 0 8px 18px #000000;
+}
+
+.tarjeta-servicio:has(input:checked) {
+    background-color: #b3ffcc;
+    border: 2px solid #16865a;
+    box-shadow: 0 0 12px #99ff99;
+}
+
+
