@@ -1,7 +1,7 @@
 /* Estilos en general, base de estilo para todo el portafolio */
 /* Fondo de toda la página */
 body {
-    background-image: url("Imagenes/imagenfondoperfil2.jpg");
+    background-image: url("imagenfondoperfil2.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
